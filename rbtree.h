@@ -1,3 +1,6 @@
+#ifndef RBTREE_H__
+#define RBTREE_H__
+
 #include <iostream>
 #include <memory>
 #include <list>
@@ -431,5 +434,7 @@ private:
 private:
 	node_pointer	root_;
 };
+
+#endif
 
 
